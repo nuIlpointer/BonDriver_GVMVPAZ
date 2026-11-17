@@ -1,0 +1,34 @@
+# Visual Studio / MSBuild intermediates & outputs
+.vs/
+*.user
+*.suo
+*.sln.docstates
+*.obj
+*.tlog
+*.pdb
+*.ipdb
+*.iobj
+*.lib
+*.exp
+*.ilk
+*.idb
+*.lastbuildstate
+*.unsuccessfulbuild
+*.recipe
+*.log
+*.bak
+
+# Build output directories under src/
+src/x64/
+src/Win32/
+src/Lib/
+src/BonDriver_BDA/x64/
+src/BonDriver_BDA/Win32/
+src/BonDriver_BDA/Lib/
+src/BonDriver_BDA/BonDriver_BDA/
+src/projects/**/x64/
+src/projects/**/Win32/
+src/projects/**/Debug*/
+src/projects/**/Release*/
+src/BdaSpecials/**/x64/
+src/BdaSpecials/**/Win32/
